@@ -6,9 +6,7 @@ class Robot {
   Robot(this.codename, this.height);
 
   // Custom setter
-  void set weight(double percent) {
-    calcWeight = (height * percent) / 100;
-  }
+  void set weight(double percent) => calcWeight = (height * percent) / 100;
   
   // Custom getter
   double get weight {
